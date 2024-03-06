@@ -45,7 +45,7 @@ class Ui_MainWindow(object):
         self.label_2.setAlignment(Qt.AlignCenter)
         self.label_3 = QLabel(self.centralwidget)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(560, 40, 160, 60))
+        self.label_3.setGeometry(QRect(529, 40, 211, 60))
         self.label_3.setFont(font1)
         self.label_3.setAutoFillBackground(False)
         self.label_3.setStyleSheet(u"color: white;\n"
@@ -85,9 +85,9 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"pythonRPG", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435:", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u" \u041c\u043e\u043d\u0435\u0442:", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u" \u0414\u0430\u0442\u0430: ", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435: 100", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u" \u041c\u043e\u043d\u0435\u0442: 0", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u" \u0414\u0430\u0442\u0430: 06.03.2024", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"\u0421\u0438\u043c\u0443\u043b\u044f\u0442\u043e\u0440 \u0428\u0410\u0427\u0418\u0420\u0410", None))
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0434\u0437\u0430\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0434\u0435\u043d\u0435\u0433", None))
