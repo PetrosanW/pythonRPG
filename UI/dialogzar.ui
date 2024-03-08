@@ -62,7 +62,7 @@ font-family: Tacticalbit;</string>
     <string notr="true">color: white;</string>
    </property>
    <property name="text">
-    <string>Начать свой бизнес</string>
+    <string>В разработке...</string>
    </property>
   </widget>
   <widget class="QLabel" name="Dlabel">
